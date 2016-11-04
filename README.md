@@ -1,11 +1,11 @@
 # IEEExtreme-Prime-Number
 **Proposed problem in IEEExtreme 2016.**
 
-This year I enjoyed **IEEExtreme** to see how the programming contest works, and for my surprise, it is **harder** than I thought it would be. :P
+This year I joined **IEEExtreme** to see how the programming contest works, and for my surprise, it is **harder** than I thought it would be. :P
 
 ##The purpose
 
-This problem was the last one (#25) of 2016 contest and it has a simple purpose:
+This problem was the last one (#25) of 2016 contest and it had a simple purpose:
 
 * The user will enter with a number input in range (1, 10^18).
 * The objectives are:
@@ -14,7 +14,7 @@ This problem was the last one (#25) of 2016 contest and it has a simple purpose:
     * Ex: Input: 37       Output: 3 + 3 + 31 = 37.
     * Ex2: Input: 7283    Output: 7 + 23 + 7253 = 7283.
 
-Having in mind that I can use whatever programming language to solve the problem, I chose Python because Python is wonderful. hehe </br>
+Having in mind that I can use any programming language to solve the problem, I chose Python because Python is wonderful. hehe </br>
 I am **working to improve algorithm otimization**, but the main problem to identify and return the proposed number as a **sum of other 3 prime number is solved**.
 
 ##How it Works?
@@ -37,7 +37,7 @@ http://www.codeskulptor.org/#user42_sAVxLToaP0_1.py
 
 ##Copyrigth
 
-**The problem solution can be reproduced or shared in other medias**, but I only ask you to **maintain credits to author.** :) </br>
+**The problem solution can be reproduced or shared in other medias**, but I only ask you to **maintain credits to the author.** :) </br>
 In addition, in case of **sharing CodeSkultpr code link**, please credit **Rice University** for platform development. 
 
 

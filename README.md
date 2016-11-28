@@ -33,7 +33,7 @@ This way, I try a 3 terms sum with 3511 and all combinations in the difference l
 In this case it will return the following result: **"3 + 3 + 3511 = 3517".** </br>
  
 Here is the CodeSkulptor link for implementation:
-http://www.codeskulptor.org/#user42_sAVxLToaP0_1.py
+http://www.codeskulptor.org/#user42_sAVxLToaP0_2.py
 
 ##Copyrigth
 

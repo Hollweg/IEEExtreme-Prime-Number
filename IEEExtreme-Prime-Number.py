@@ -1,60 +1,68 @@
 
-
 #IEEExtreme Prime Number Solution
 #Developed by Guilherme Hollweg
 #Last modified in 10/2016
-#numero de entrada (primo ou não)
 
+#input number (prime or not)
 num = 3517
 
 origNum = num
-lstPrimos = []
+lstPrimes = []
 
-#Funcao que testa a entrada, para verificar se é primo ou não
-def TestPrimo(n):
-    if n%2 == 0 or n%3 == 0 or n%5 == 0 or n%7 == 0:
+#Test input to see if its prime or not
+def TestPrime(n):
+    
+    #Kills a lot of prime numbers in an easy way
+    if n%2 == 0 or n%3 == 0 or n%5 == 0 or n%7 == 0 or n%11 == 0 or n == 0 or n == 1:
         return False
+    
+    #test it via brute way
     for x in range(n):
         if x != 0 and x != 1:
             if n%x == 0 and n != x:
                 return False
     return True
 
-#Funcao que varre todos os primos e guarda-os em uma lista
-def primos(n):
-    global lstPrimos
+#Find all prime numbers and store it on a list
+def primes(n):
+    global lstPrimes
     for x in range(n):
         if x!= 0 and x!=1:
-            if n%x==0 and n!=x:
-                return '%s nao e um numero primo' %n
-    lstPrimos.append(n)
-    return '%s e um numero primo' %n
+            if n%x == 0 and n != x:
+                return '%s is not a prime number' %n
+    lstPrimes.append(n)
+    return '%s is prime' %n
 
-testNum = TestPrimo(num)
+testNum = TestPrime(num)
 
 if testNum == True:
-    print '%s e um numero primo' %num
+    print '%s is prime' %num
     while num > 2:
-        y = TestPrimo(num-1)
+        y = TestPrime(num-1)
         if y == True:
-            print '%s e um numero primo' %(num-1)
+            print '%s is prime \n' %(num-1)
             break
         #else:
-            #print '%s nao e um numero primo' %(num-1)
+            #print '%s is not a prime number' %(num-1)
         num = num - 1
+    
     dif = origNum - (num - 1)
-    print 'A diferenca entre o numero primo e seu antecessor e: %s' %(dif)
-    lst = map(primos, range(dif))
-    if 0 in lstPrimos:
-        lstPrimos.remove(0)
-    if 1 in lstPrimos:
-        lstPrimos.remove(1)   
-    for i in range(len(lstPrimos)):
-        res = dif - lstPrimos[i]
-        if res in lstPrimos:
-            if ((res + lstPrimos[i] + num - 1) == origNum):
-                print '\n O numero primo %s pode ser representado pela soma de %s + %s + %s = %s' %(origNum, res, lstPrimos[i], (num - 1), origNum)
+    print 'The difference between the prime number and its antecessor is: %s' %(dif)
+    lst = map(primes, range(dif))
+    
+    if 0 in lstPrimes:
+        lstPrimes.remove(0)
+    
+    if 1 in lstPrimes:
+        lstPrimes.remove(1)   
+    
+    for i in range(len(lstPrimes)):
+        res = dif - lstPrimes[i]
+        if res in lstPrimes:
+            if ((res + lstPrimes[i] + num - 1) == origNum):
+                print '\n The prime number %s can be represented by the sum %s + %s + %s = %s' %(origNum, res, lstPrimes[i], (num - 1), origNum)
                 break
 else:
-    print '%s nao e um numero primo' %num
+    print '%s is not a prime number' %num
     
+

@@ -36,7 +36,7 @@ Dessa forma, tenta-se a soma de 3 números com 3511 e todas combinações em dif
 Nesse caso o algoritmo me retorna o seguinte resultado: **3 + 3 + 3511 = 3517.**
  
 Aqui está o link para a implementação no ambiente Codeskulptor: </br>
-http://www.codeskulptor.org/#user42_sAVxLToaP0_1.py
+http://www.codeskulptor.org/#user42_sAVxLToaP0_2.py
 
 ##Direitos
 

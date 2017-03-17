@@ -1,9 +1,9 @@
-#IEEExtreme-Prime-Number
+# IEEExtreme-Prime-Number
 **Problema proposto no concurso de programação IEEExtreme 2016.**
 
 Esse ano eu participei do concurso **IEEExtreme** para ver como funcionava a competição, e para minha surpresa, é **mais difícil** do que **eu pensei que seria.** :P
 
-##A proposta
+## A proposta
 
 Esse problema foi o último lançado na competição (nº 25) e tinha uma proposta relativamente simples:
 
@@ -19,7 +19,7 @@ Por que Python? Por que Python é incrível. :D
 
 Estou trabalhando para **melhorar o algoritmo em termos de otimização**, mas o principal problema de identificar e **retonar o número proposto como uma soma de 3 outros números primos foi solucionada**.
 
-##Como ele funciona?
+## Como ele funciona?
 
 A principal ideia é verificar se o número é **primo**, e se o resultado for positivo, o algoritmo procura o **último número primo** da entrada, usando o mesmo método de busca. Entretanto, é varrido o último número primo de trás para frente, por quesitos de otimização. 
 
@@ -38,7 +38,7 @@ Nesse caso o algoritmo me retorna o seguinte resultado: **3 + 3 + 3511 = 3517.**
 Aqui está o link para a implementação no ambiente Codeskulptor: </br>
 http://www.codeskulptor.org/#user42_sAVxLToaP0_2.py
 
-##Direitos
+## Direitos
 
 **A solução do problema pode ser reproduzida em outras mídias sem problema algum :)**. </br>
 Entretanto, caso isso seja feito, somente peço para que sejam mantidos **créditos ao autor**. </br>

@@ -3,7 +3,7 @@
 
 This year I joined **IEEExtreme** to see how the programming contest works, and for my surprise, it is **harder** than I thought it would be. :P
 
-##The purpose
+## The purpose
 
 This problem was the last one (#25) of 2016 contest and it had a simple purpose:
 
@@ -17,7 +17,7 @@ This problem was the last one (#25) of 2016 contest and it had a simple purpose:
 Having in mind that I can use any programming language to solve the problem, I chose Python because Python is wonderful. hehe </br>
 I am **working to improve algorithm otimization**, but the main problem to identify and return the proposed number as a **sum of other 3 prime number is solved**.
 
-##How it Works?
+## How it Works?
 
 The main idea is verify if the number is **prime**, and if the result is positive, I search for the **last prime number** of input, using the same search way. </br>
 In the moment that I find the last prime number of the input, I **calculate the difference between input** (if it is a prime number) **and its last prime number.** </br>
@@ -35,7 +35,7 @@ In this case it will return the following result: **"3 + 3 + 3511 = 3517".** </b
 Here is the CodeSkulptor link for implementation:
 http://www.codeskulptor.org/#user42_sAVxLToaP0_2.py
 
-##Copyrigth
+## Copyrigths
 
 **The problem solution can be reproduced or shared in other medias**, but I only ask you to **maintain credits to the author.** :) </br>
 In addition, in case of **sharing CodeSkultpr code link**, please credit **Rice University** for platform development. 

@@ -4,7 +4,7 @@
 
 # Using PEP 8 -- Style Guide for Python Code
 # https://www.python.org/dev/peps/pep-0008/
-# Last Modified on 18/04/2017
+# Last Modified on 18/04/2017 (PEP 8 format)
 
 #input number (prime or not) Ex.: 3517
 num = int(raw_input("Type a number: "))
